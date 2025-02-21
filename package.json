@@ -1,0 +1,31 @@
+{
+  "name": "qrgenerator",
+  "version": "1.0.0",
+  "description": "qr generator",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leosawka/QRGenerator.git"
+  },
+  "keywords": [
+    "qr",
+    "generator",
+    "generate",
+    "qrcode",
+    "code"
+  ],
+  "author": "leonardo sawka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leosawka/QRGenerator/issues"
+  },
+  "homepage": "https://github.com/leosawka/QRGenerator#readme",
+  "dependencies": {
+    "jsdom": "^26.0.0",
+    "qrcode": "^1.5.3"
+  }
+}
